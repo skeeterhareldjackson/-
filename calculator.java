@@ -6,9 +6,9 @@ public class Calculator //оголошення нового класу Calculato
 		System.out.println("\f");  //таким чином ми вказуємо, що результат (розрахунку) треба висвiтити на екранi
 		Scanner sc = new Scanner(System.in);
 		System.out.println("введіть два числа"); //треба написати на екранi "введіть два числа"
-		double num1 = sc.nextDouble(); //наказує об'єктам класу Scanner реагувати лише на цiлi числа - int (дробi не їсть - дуже простий калькулятор)
-		double num2 = sc.nextDouble(); //таке саме для другого числа
-		double add, sub, mul, div, mod; //задає можливi дiї для цiлих чисел
+		double num1 = sc.nextDouble(); 
+		double num2 = sc.nextDouble(); 
+		double add, sub, mul, div, mod; //задає можливi дiї для чисел
 		System.out.println("якщо скласти:"); //треба написати на екранi "якщо скласти:"
 		add = num1 + num2; //порядок виконання складання
         System.out.println("відповідь - " +add);//треба написати на екранi "відповідь - результат складання add"
